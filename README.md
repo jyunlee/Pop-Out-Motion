@@ -1,16 +1,20 @@
 # Pop-Out Motion
-**Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian (CVPR 2022)**
+###Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian (CVPR 2022)###
+
 Jihyun Lee*, Minhyuk Sung*, Hyunjin Kim, Tae-Kyun (T-K) Kim (*: equal contributions)
+
 [\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM)
 
-![alt-text](https://github.com/jyunlee/Pop-Out-Motion/blob/main/teaser.gif)
+     ![alt-text](https://github.com/jyunlee/Pop-Out-Motion/blob/main/teaser.gif)
 > We present a framework that can deform an object in a 2D image as it exists in 3D space. While our method leverages 2D-to-3D reconstruction, we argue that reconstruction is not sufficient for realistic deformations due to the vulnerability to topological errors. Thus, we propose to take a supervised learning-based approach to predict the shape Laplacian of the underlying volume of a 3D reconstruction represented as a point cloud. Given the deformation energy calculated using the predicted shape Laplacian and user-defined deformation handles (e.g., keypoints), we obtain bounded biharmonic weights to model plausible handle-based image deformation.
+
 
 ## Environment Setup  
 Clone this repository and install the dependencies specified in `requirements.txt`.
 <pre><code> git clone https://github.com/jyunlee/Pop-Out-Motion.git
  mv Pop-Out-Motion
  pip install -r requirements.txt </pre></code>
+
 
 ## Data Pre-Processing  
 ### Training Data
@@ -21,7 +25,7 @@ Clone this repository and install the dependencies specified in `requirements.tx
  cmake ..
  make
  cd ..</pre></code>
-
+ 
 2. Clone and build [Manifold](https://github.com/hjwdzh/Manifold) repository to obtain `manifold` executable.
 
 3. Clone and build [fTetWild](https://github.com/wildmeshing/fTetWild) repository to obtain `FloatTetwild_bin` executable.
@@ -47,6 +51,7 @@ Run `network/train.py` to train your own Laplacian Learning Network.
  python train.py </pre></code>
 The pre-trained model on DFAUST dataset is also available [here](https://github.com/jyunlee/Pop-Out-Motion).
 
+
 ## Network Inference
 **Deformation Energy Inference**
 1. Given an input image, generate its 3D reconstruction via running [PIFu](https://github.com/shunsukesaito/PIFu). It is also possible to directly use point cloud data obtained from other sources.
@@ -56,6 +61,7 @@ The pre-trained model on DFAUST dataset is also available [here](https://github.
 3. Run `network/a_inference.py` to predict the deformation energy matrix.
 <pre><code> cd network
  python a_inference.py </pre></code>
+ 
 **Handle-Based Deformation Weight Calculation**
 
 1. Build an executable from the c++ file in `bbw_calculation` directory. After running the commands below, you should have  `calc_bbw_bin` executable.
