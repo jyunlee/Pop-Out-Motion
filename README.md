@@ -1,12 +1,14 @@
 # Pop-Out Motion
-###Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian (CVPR 2022)###
+### Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian (CVPR 2022) ###
 
 Jihyun Lee*, Minhyuk Sung*, Hyunjin Kim, Tae-Kyun (T-K) Kim (*: equal contributions)
 
 [\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM)
 
-     ![alt-text](https://github.com/jyunlee/Pop-Out-Motion/blob/main/teaser.gif)
+   ![alt-text](https://github.com/jyunlee/Pop-Out-Motion/blob/main/teaser.gif)
+
 > We present a framework that can deform an object in a 2D image as it exists in 3D space. While our method leverages 2D-to-3D reconstruction, we argue that reconstruction is not sufficient for realistic deformations due to the vulnerability to topological errors. Thus, we propose to take a supervised learning-based approach to predict the shape Laplacian of the underlying volume of a 3D reconstruction represented as a point cloud. Given the deformation energy calculated using the predicted shape Laplacian and user-defined deformation handles (e.g., keypoints), we obtain bounded biharmonic weights to model plausible handle-based image deformation.
+
 
 
 ## Environment Setup  
@@ -14,6 +16,7 @@ Clone this repository and install the dependencies specified in `requirements.tx
 <pre><code> git clone https://github.com/jyunlee/Pop-Out-Motion.git
  mv Pop-Out-Motion
  pip install -r requirements.txt </pre></code>
+
 
 
 ## Data Pre-Processing  
@@ -33,6 +36,7 @@ Clone this repository and install the dependencies specified in `requirements.tx
 4. Run `preprocess_train_data.py` to prepare your training data. This should perform (1) shape normalization into a unit bounding sphere, (2) volume mesh conversion, and (3) cotangent Laplacian and inverse mass calculation.
 <pre><code> python preprocess_train_data.py </code></pre>
  
+ 
 ### Test Data
 1. Build executables from the c++ files in `data_preprocessing` directory. After running the commands below, you should have  `normalize_bin` executable.
 <pre><code> cd data_preprocessing
@@ -45,11 +49,14 @@ Clone this repository and install the dependencies specified in `requirements.tx
 2. Run `preprocess_test_data.py` to prepare your test data. This should perform (1) shape normalization into a unit bounding sphere and (2) pre-computation of KNN-Based Point Pair Sampling (KPS).
 <pre><code> python preprocess_test_data.py </code></pre>
 
+
+
 ## Network Training
 Run `network/train.py` to train your own Laplacian Learning Network.
 <pre><code> cd network
  python train.py </pre></code>
 The pre-trained model on DFAUST dataset is also available [here](https://github.com/jyunlee/Pop-Out-Motion).
+
 
 
 ## Network Inference
@@ -61,6 +68,8 @@ The pre-trained model on DFAUST dataset is also available [here](https://github.
 3. Run `network/a_inference.py` to predict the deformation energy matrix.
 <pre><code> cd network
  python a_inference.py </pre></code>
+ 
+ 
  
 **Handle-Based Deformation Weight Calculation**
 
@@ -79,6 +88,8 @@ The pre-trained model on DFAUST dataset is also available [here](https://github.
 ./build/calc_bbw_bin <shape_path> <handle_path> <deformation_energy_path> <output_weight_path>
 ```
 
+
+
 ## Citation
 If you find this work useful, please consider citing our paper.
 ```
@@ -92,6 +103,8 @@ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVP
 year = {2022}
 }
 ```
+
+
 ## Acknowledgements
 
  - Parts of our data-preprocessing code are adpated from [DeepMetaHandles](https://github.com/Colin97/DeepMetaHandles).
