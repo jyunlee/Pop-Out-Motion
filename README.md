@@ -56,7 +56,7 @@ Clone this repository and install the dependencies specified in `requirements.tx
 Run `network/train.py` to train your own Laplacian Learning Network.
 <pre><code> cd network
  python train.py </pre></code>
-The pre-trained model on DFAUST dataset is also available [here](https://github.com/jyunlee/Pop-Out-Motion).
+The pre-trained model on DFAUST dataset is also available [here](https://drive.google.com/drive/folders/1pMVi9b4DH6bIrkgkWuEzYB9LtFdGwjhC?usp=sharing).
 
 &nbsp;
 
