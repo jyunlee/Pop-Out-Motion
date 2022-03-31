@@ -38,7 +38,6 @@ Clone this repository and install the dependencies specified in `requirements.tx
 4. Run `preprocess_train_data.py` to prepare your training data. This should perform (1) shape normalization into a unit bounding sphere, (2) volume mesh conversion, and (3) cotangent Laplacian and inverse mass calculation.
 <pre><code> python preprocess_train_data.py </code></pre>
  
- &nbsp;
  
 ### Test Data
 1. Build executables from the c++ files in `data_preprocessing` directory. After running the commands below, you should have  `normalize_bin` executable.
@@ -72,7 +71,6 @@ The pre-trained model on DFAUST dataset is also available [here](https://github.
 <pre><code> cd network
  python a_inference.py </pre></code>
  
- &nbsp;
  
 **Handle-Based Deformation Weight Calculation**
 
