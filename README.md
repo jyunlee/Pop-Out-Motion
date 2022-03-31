@@ -2,6 +2,7 @@
 **Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian (CVPR 2022)**
 Jihyun Lee*, Minhyuk Sung*, Hyunjin Kim, Tae-Kyun (T-K) Kim (*: equal contributions)
 [\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM)
+
 ![alt-text](https://github.com/jyunlee/Pop-Out-Motion/blob/main/teaser.gif)
 > We present a framework that can deform an object in a 2D image as it exists in 3D space. While our method leverages 2D-to-3D reconstruction, we argue that reconstruction is not sufficient for realistic deformations due to the vulnerability to topological errors. Thus, we propose to take a supervised learning-based approach to predict the shape Laplacian of the underlying volume of a 3D reconstruction represented as a point cloud. Given the deformation energy calculated using the predicted shape Laplacian and user-defined deformation handles (e.g., keypoints), we obtain bounded biharmonic weights to model plausible handle-based image deformation.
 
