@@ -1,0 +1,4 @@
+task_model:
+    class: models.LapNet
+    name: lap_net
+metric: "val_acc"

@@ -1,0 +1,19 @@
+defaults:
+    - task: lap_net
+    - model: point_transformer
+    - task_model: ${defaults.0.task}
+
+hydra:
+  run:
+    dir: outputs
+
+gpus:
+    - 0
+
+optimizer: ???
+
+task_model: ???
+
+model: ???
+
+distrib_backend: dp
