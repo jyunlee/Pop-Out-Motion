@@ -1,9 +1,9 @@
 # Pop-Out Motion
 ## Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian (CVPR 2022) ##
 
-### Jihyun Lee*, Minhyuk Sung*, Hyunjin Kim, Tae-Kyun (T-K) Kim (*: equal contributions) ### 
+** Jihyun Lee*, Minhyuk Sung*, Hyunjin Kim, Tae-Kyun (T-K) Kim (*: equal contributions) **
 
-[\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM)
+** [\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM) **
 
 <p align="center">
   <img src="https://github.com/jyunlee/Pop-Out-Motion/blob/main/teaser.gif" alt="animated" />
@@ -30,7 +30,6 @@ Clone this repository and install the dependencies specified in `requirements.tx
  cmake ..
  make
  cd ..</pre></code>
- 
 2. Clone and build [Manifold](https://github.com/hjwdzh/Manifold) repository to obtain `manifold` executable.
 
 3. Clone and build [fTetWild](https://github.com/wildmeshing/fTetWild) repository to obtain `FloatTetwild_bin` executable.
