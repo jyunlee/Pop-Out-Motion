@@ -94,10 +94,10 @@ The pre-trained model on DFAUST dataset is also available [here](https://drive.g
 If you find this work useful, please consider citing our paper.
 ```
 @InProceedings{lee2022popoutmotion,
-author = {Lee, Jihyun and Sung, Minhyuk and Kim, Hyunjin and Kim, Tae-Kyun},
-title = {Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-year = {2022}
+    author = {Lee, Jihyun and Sung, Minhyuk and Kim, Hyunjin and Kim, Tae-Kyun},
+    title = {Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian},
+    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2022}
 }
 ```
 &nbsp;
