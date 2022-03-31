@@ -6,7 +6,7 @@ Jihyun Lee*, Minhyuk Sung*, Hyunjin Kim, Tae-Kyun (T-K) Kim (*: equal contributi
 **[\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM)**
 
 <p align="center">
-  <img src="https://www.youtube.com/watch?v=gHxwHxIZiuM&feature=youtu.be" alt="animated" />
+  <img src="https://www.youtube.com/watch?v=gHxwHxIZiuM&feature=youtu.be"/>
 </p>
 
 > We present a framework that can deform an object in a 2D image as it exists in 3D space. While our method leverages 2D-to-3D reconstruction, we argue that reconstruction is not sufficient for realistic deformations due to the vulnerability to topological errors. Thus, we propose to take a supervised learning-based approach to predict the shape Laplacian of the underlying volume of a 3D reconstruction represented as a point cloud. Given the deformation energy calculated using the predicted shape Laplacian and user-defined deformation handles (e.g., keypoints), we obtain bounded biharmonic weights to model plausible handle-based image deformation.
