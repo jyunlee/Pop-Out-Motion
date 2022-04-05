@@ -3,7 +3,7 @@
 
 Jihyun Lee*, Minhyuk Sung*, Hyunjin Kim, Tae-Kyun (T-K) Kim (*: equal contributions)
 
-**[\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM)**
+**[\[Project Page\]](https://jyunlee.github.io/projects/pop-out-motion) [\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Video\]](https://youtu.be/gHxwHxIZiuM)**
 
 <p align="center">
   <img src="teaser.gif" alt="animated" />
