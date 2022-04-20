@@ -104,5 +104,5 @@ If you find this work useful, please consider citing our paper.
 
 ## Acknowledgements
 
- - Parts of our data-preprocessing code are adpated from [DeepMetaHandles](https://github.com/Colin97/DeepMetaHandles).
- - Parts of our network code are adpated from [Point-Transformer](https://github.com/POSTECH-CVLab/point-transformer).
+ - Parts of our data-preprocessing code are adopted from [DeepMetaHandles](https://github.com/Colin97/DeepMetaHandles).
+ - Parts of our network code are adopted from [Point-Transformer](https://github.com/POSTECH-CVLab/point-transformer).
