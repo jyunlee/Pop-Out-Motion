@@ -1,10 +1,11 @@
 # Pop-Out Motion
 ## Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian (CVPR 2022) ##
 
-[Jihyun Lee*](https://jyunlee.github.io/), [Minhyuk Sung*](https://mhsung.github.io/), Hyunjin Kim, [Tae-Kyun (T-K) Kim](https://sites.google.com/view/tkkim/home) (*: equal contributions)
+[Jihyun Lee](https://jyunlee.github.io/)*, [Minhyuk Sung](https://mhsung.github.io/)*, Hyunjin Kim, [Tae-Kyun (T-K) Kim](https://sites.google.com/view/tkkim/home) (*: equal contributions)
 
 **[\[Project Page\]](https://jyunlee.github.io/projects/pop-out-motion) [\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Supplementary Video Results\]](https://youtu.be/gHxwHxIZiuM)**
-**[\[CVPR 2022 Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) [\[CVPR 2022 Poster\]]([https://arxiv.org/abs/2203.15235](https://jyunlee.github.io/projects/pop-out-motion))**
+
+**[\[CVPR 2022 Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) [\[CVPR 2022 Poster\]](https://jyunlee.github.io/projects/pop-out-motion)**
 
 <p align="center">
   <img src="teaser.gif" alt="animated" />
