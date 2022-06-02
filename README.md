@@ -7,7 +7,8 @@
 
 ---
 
-**CVPR Materials: [\[Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) [\[Poster\]](https://jyunlee.github.io/projects/pop-out-motion)**
+**CVPR Materials: [\[Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) <a href="poster.pdf" class="image fit">\[Poster\]</a>
+**
 
 <p align="center">
   <img src="teaser.gif" alt="animated" />
