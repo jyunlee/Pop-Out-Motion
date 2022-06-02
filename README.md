@@ -7,7 +7,7 @@
 
 ---
 
-**CVPR Materials: [\[Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) <a href="poster.pdf" class="image fit">\[Poster\]</a>
+**CVPR 2022 Materials: [\[Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) <a href="poster.pdf" class="image fit". type="application/pdf">\[Poster\]</a>
 **
 
 <p align="center">
