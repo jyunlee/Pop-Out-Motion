@@ -5,7 +5,9 @@
 
 **[\[Project Page\]](https://jyunlee.github.io/projects/pop-out-motion) [\[Paper\]](https://arxiv.org/abs/2203.15235) [\[Supplementary Video Results\]](https://youtu.be/gHxwHxIZiuM)**
 
-**[\[CVPR 2022 Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) [\[CVPR 2022 Poster\]](https://jyunlee.github.io/projects/pop-out-motion)**
+---
+
+**CVPR Materials: [\[Presentation Video\]](https://jyunlee.github.io/projects/pop-out-motion) [\[Poster\]](https://jyunlee.github.io/projects/pop-out-motion)**
 
 <p align="center">
   <img src="teaser.gif" alt="animated" />
