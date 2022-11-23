@@ -7,7 +7,7 @@
 
 ---
 
-**CVPR 2022 Materials: [\[Presentation Video\]](https://youtu.be/Nix4m6W6AW0) **<a href="https://jyunlee.github.io/projects/pop-out-motion/data/cvpr2022_poster.pdf" class="image fit" type="application/pdf">**\[Poster\]**</a>
+**CVPR 2022 Materials: [\[Presentation Video\]](https://youtu.be/Nix4m6W6AW0)** **<a href="https://jyunlee.github.io/projects/pop-out-motion/data/cvpr2022_poster.pdf" class="image fit" type="application/pdf">\[Poster\]</a>**
 
 
 <p align="center">
